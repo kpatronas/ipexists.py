@@ -22,3 +22,9 @@ Examples:
 ./ip_exists.py  -i 127.0.0.2,127.0.0.1 ; echo $?
 0
 ```
+
+-v parameter prints the matched ip addresses, useful if you want to pass the matched ip addresses to another script
+```
+./ipexists.py -i 127.0.0.1,127.0.0.2 -v
+127.0.0.1
+```
